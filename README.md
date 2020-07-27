@@ -20,3 +20,7 @@ For this exercise in Html css, we will reproduce the page: https://www.chooseyou
 * The site is hosted via a GH-page
 * The repository contains a readme, description and tags
 * Use a KANBAN-type project management tool
+
+## WIREFRAME
+
+<img src="https://www.casimages.com/i/200728013817106531.jpg.html" alt="prestations" style="height: 100px; width:100px;"/>
