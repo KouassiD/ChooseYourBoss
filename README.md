@@ -21,6 +21,9 @@ For this exercise in Html css, we will reproduce the page: https://www.chooseyou
 * The repository contains a readme, description and tags
 * Use a KANBAN-type project management tool
 
-## WIREFRAME
+## WIREFRAME & FUNCTIONAL TREE
 
 <img src="Wireframe_Layout/functional_tree.jpg" alt="functional_tree" style="height: 100px; width:100px;"/>
+<img src="Wireframe_Layout/iPhone X-XS-11 Pro – 1.jpg" lt="phone-wireframe" style="height: 100px; width:100px;"/>
+<img src="Wireframe_Layout/iPad – 1.jpg" alt="tablette-wireframe" style="height: 100px; width:100px;"/>
+<img src="Wireframe_Layout/Web 1280 – 1.jpg" alt="laptop-wireframe" style="height: 100px; width:100px;"/>
