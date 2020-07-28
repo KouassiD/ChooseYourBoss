@@ -87,19 +87,53 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html{background: black;}
-body{background: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png);}
-h1,h2,h3,h4,h5,h6,p,a,figcaption{color: white; text-align: center;}
 
-.button {
-  background-color: #4D22FF; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+body{background: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png) center cover/center border-box top; }
+
+.mask{display: none;}
+
+h1,h2,h3,h4,h5,h6,p,a{color: white;}
+.txt-bold{font-weight: bold; font-size: 1.6rem;}
+.bck-stats{background: #2B345D;}
+.txt-cyan{color: cyan;}
+
+nav{position: relative;}
+
+ul{text-decoration: none; list-style: none;}
+
+figure{text-align: center;}
+
+.disflex{display: flex;}
+.center{display: flex; align-items: center; justify-content: center;}
+.space-between{justify-content: space-between;}
+.col{flex-direction: column;} 
+.row{flex-direction: row;}
+.wrap{flex-wrap: wrap;}
+
+.button-main{
+ display: block;
+ background-color: #4D22FF;
+ text-decoration: none;
+ border-radius: 6rem;
+ font-size: 1.2rem;
+ margin: 0 4rem;
 }
+
+.button-head{
+  display: block;
+  background-color: #4D22FF;
+  text-decoration: none;
+  border-radius: 6rem;
+  font-size: 1.2rem;
+  margin: 0 4rem;
+  width: 8rem;
+ }
+ 
+
+
+img{width: 50%;}
+
+@media (min-width: 576px) {  }
 
 /*------------------------  NAV --------------------------------------------- */
 
