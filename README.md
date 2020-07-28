@@ -23,7 +23,20 @@ For this exercise in Html css, we will reproduce the page: https://www.chooseyou
 
 ## WIREFRAME & FUNCTIONAL TREE
 
+<details>
+<summary>Functional Tree</summary>
 <img src="Wireframe_Layout/functional_tree.jpg" alt="functional_tree" style="height: 100px; width:100px;"/>
+</details>
+
+<details>
+<summary>Wireframe - Phone</summary>
 <img src="Wireframe_Layout/iPhone X-XS-11 Pro – 1.jpg" lt="phone-wireframe" style="height: 100px; width:100px;"/>
+</details>
+<details>
+<summary>Wireframe - Tablette</summary>
 <img src="Wireframe_Layout/iPad – 1.jpg" alt="tablette-wireframe" style="height: 100px; width:100px;"/>
+</details>
+<details>
+<summary>Wireframe - LapTop</summary>
 <img src="Wireframe_Layout/Web 1280 – 1.jpg" alt="laptop-wireframe" style="height: 100px; width:100px;"/>
+</details>
