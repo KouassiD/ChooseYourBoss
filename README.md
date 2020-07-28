@@ -23,4 +23,4 @@ For this exercise in Html css, we will reproduce the page: https://www.chooseyou
 
 ## WIREFRAME
 
-<img src="functional_tree.jpg" alt="prestations" style="height: 100px; width:100px;"/>
+<img src="Wireframe_Layout/functional_tree.jpg" alt="functional_tree" style="height: 100px; width:100px;"/>
