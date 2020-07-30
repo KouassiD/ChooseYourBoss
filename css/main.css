@@ -92,10 +92,11 @@ html {
 
 body {
   background: url(https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/splash-general-3.png)  border-box top;
+  block-size: cover;
 }
-
+/*------------------------ HEADER --------------------------------------*/
 head>figure{margin: 0 auto; width: 50%;}
-
+header > article {margin: 5rem 2rem 5rem 2rem;}
 /* article{background: red;}
 main{background: greenyellow;}  
 article>article{background: cyan; border: solid black 1px;}
@@ -103,9 +104,14 @@ section{background: beige;} */
 
 section>article{width: 25rem;}
 
-#p-profil{width:80%;}
+.disflex {
+  display: flex;
+}
 
-.marginAll{margin: 0 2rem;}
+.mask{display: none;}
+
+#p-profil{display: none;}
+/* .marginAll{margin: 0 2rem;} */
 .txt-center{text-align: center;}
 
 nav {
@@ -126,9 +132,9 @@ nav {
   /* margin: 0 rem; */
 }
 
-.mask {
+/* .mask {
   display: none;
-}
+} */
 
 h1,
 h2,
@@ -148,19 +154,17 @@ a {
   padding: 0 6rem 0 6rem;
   align-items: center;
   justify-content: center;
+  font-family: Gotham Black Regular rgb(255, 255, 255) regular;
 }
 
-.bck-algo{background: #eee9fa56; margin: -1.3rem 0 10rem 0; height: 36rem;}
+.bck-algo{background: #eee9fa56; margin: -1.3rem 0 10rem 0; height: 90rem;}
 
 .bck-foot{color: rgb(255, 29, 29);}
 
-ul {
+ul,li {
   text-decoration: none;
   list-style: none;
-}
-
-.disflex {
-  display: flex;
+  padding-left: 1rem;
 }
 
 .center {
@@ -168,9 +172,14 @@ ul {
   justify-content: center;
 }
 
-.space-between {
+main>.space-even {
   justify-content: space-evenly;
 }
+
+.space-bet {
+  justify-content: space-between;
+}
+
 
 .col {
   flex-direction: column;
@@ -203,12 +212,12 @@ ul {
   text-align: center;
   text-decoration: none;
   border-radius: 6rem;
-  font-size: 1.2rem;
-  width: 8rem;
+  width: 12rem;
+  margin-top: 3rem;
 }
 
 .txt-cyan{color: cyan; font-size: 1.3rem; font-weight: bolder; margin: 0 0 2rem 0;}
-.txt-bold{font-size: 2rem; font-weight: 1000; margin: 1.6rem 0 ;}
+.txt-bold{font-size: 2rem; font-weight: 1000; margin: 1.6rem 0; text-transform: uppercase;}
 .txt-bold2{font-size: 1rem; font-weight: 1000; margin: 1.6rem 0 ;}
 
 /* nav>img {
@@ -219,9 +228,56 @@ ul {
 .algo-img{max-width: 100%;}
 .tech-img{width: 100%;}
 
+/*--------------------------------  FONT --------------------------------------------------*/
+p{font-family: 'Muli';}
+h1{font-family: Gotham Black Regular;}
+/*-------------GOTHAM BLACK REGU----------------*/
+@font-face {
+  font-family: "Gotham Black Regular";
+  src: url("font/Gotham Black Regular.eot");
+  src:
+  url("font/Gotham Black Regular.woff") format("woff"),
+  url("font/Gotham Black Regular.otf") format("opentype"),
+  url("font/Gotham Black Regular.svg#filename") format("svg");
+  }
+
+/*-------MULI----- --*/
+/* vietnamese */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk40eiNxw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk50eiNxw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/muli/v22/7Aulp_0qiz-aVz7u3PJLcUMYOFnOkEk30eg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/*-------------------------------- END FONT --------------------------------------------------*/
+
+
+
+
+
 @media (min-width: 768px) {
 section>article{width: 20rem; margin: 0 1rem;}
-
+.mask{display: none;}
   /* nav>img {
     display: block;
     width: 100%;
@@ -233,10 +289,11 @@ section>article{width: 20rem; margin: 0 1rem;}
 }
 
 @media (min-width: 1024px) {
-
+#menu{display: none;}
+#p-profil{display: flex; width:35rem;}
+header>article>article{ font-size: 1.5rem;}
+.mask{display: flex;}
 }
-
-@media (min-width: 1024px) {}
 
 /*------------------------  NAV --------------------------------------------- */
 
