@@ -1,40 +1,50 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>ChooseYourBoss : annonce d’emplois des métiers du numérique</title>
+    <meta
+      name="description"
+      content="Trouvez votre prochaine aventure digitale grâce à notre algorithme de matching innovant !"
+    />
+    <meta
+      name="keywords"
+      content="emploi informatique, offre, recrutement, ssii, logiciel, éditeur, candidat, ingénieur, matching, annonce"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>ChooseYourBoss : annonce d’emplois des métiers du numérique</title>
-  <meta name="description"
-    content="Trouvez votre prochaine aventure digitale grâce à notre algorithme de matching innovant !">
-  <meta name="keywords"
-    content="emploi informatique, offre, recrutement, ssii, logiciel, éditeur, candidat, ingénieur, matching, annonce">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap" />
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta name="theme-color" content="#fafafa">
-</head>
-
-<body>
-
-  <nav class="disflex center space-even">
-    <article style="width: 100%;">
-      <!-- hamburger Menu -->
-      <figure>
-        <img id="menu" src="img/menu2.png" alt="menu-hamburger">
-      </figure>
-      <!-- END hamburger Menu -->
-      <article class="disflex space-bet">
+  <body>
+    <nav>
+      <div class="dflex center row">
+        <!-- hamburger Menu -->
         <figure>
-          <a href="index.html"><img id="logo"
-              src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/logos/logo-2019.svg"
-              alt="logo-chooseyourboss"></a>
+          <img id="menu" src="img/menu2.png" alt="menu-hamburger" />
         </figure>
-        <article>
-          <ul class="mask disflex center" style="margin-right: 3rem;">
+        <!-- END hamburger Menu -->
+        <div class="center">
+          <figure>
+            <a href="index.html"
+              ><img
+                id="logoCYB"
+                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/logos/logo-2019.svg"
+                alt="logo-chooseyourboss"
+            /></a>
+          </figure>
+        </div>
+        <div class="mask-nav">
+          <ul>
             <li><a href="">Offres</a></li>
             <li><a href="">Entreprises</a></li>
             <li><a href="">Salaires</a></li>
@@ -44,198 +54,208 @@
             <li><a href="">Inscription</a></li>
             <li><a href="">Vous êtes recruteur</a></li>
           </ul>
-        </article>
-      </article>
+        </div>
+      </div>
+    </nav>
 
-    </article>
-  </nav>
+    <header class="dflex center margin-header">
+      <section class="width">
+        <h1>Le matching parfait est aussi professionnel</h1>
+        <p>
+          Découvre quelles offres d'emploi informatique et numérique matchent
+          avec ton profil et choisis ta prochaine squad!
+        </p>
+        <a class="btn-header" href="#">Je m'inscris</a>
+      </section>
 
-  <header class="disflex center">
-    <article class="marginAll disflex center">
-      <article>
-        <section>
-          <h1>Le matching parfait est aussi professionnel</h1>
-          <p>Découvre quelles offres d'emploi informatique et numérique matchent avec ton profil et choisis ta prochaine
-            squad!</p>
-        </section>
-        <a class="button-head" href="#">
-          <p>Je m'inscris</p>
-        </a>
-      </article>
-      <article class="disflex center">
-        <figure class="disflex center">
-          <img id="p-profil" src="/img/man.png" alt="photo de profil">
+      <div class="width">
+        <figure>
+          <img
+            class="mask-img p-profil"
+            src="/img/man.png"
+            alt="photo de profil"
+          />
         </figure>
-      </article>
-    </article>
+      </div>
+    </header>
 
-
-  </header>
-
-  <article class="bck-stats disflex space-bet wrap">
-    <article class="">
-      <h6 class="txt-bold">150 000</h6>
-      <p class="txt-cyan">Candidats</p>
-    </article>
-    <article class="">
-      <h6 class="txt-bold">465 000</h6>
-      <p class="txt-cyan">Rencontres</p>
-    </article>
-    <article class="col">
-      <h6 class="txt-bold">13 300</h6>
-      <p class="txt-cyan">Recruteurs</p>
-    </article>
-  </article>
-
-  <main class="marginAll">
-
-    <article class="txt-center bck-algo">
-
-      <section>
-        <h2>L'algorithme travaille pour toi</h2>
-        <p>Accède à des matchings personnalisés tout en restant protégé et anonyme</p>
+    <div class="bck-stats dflex sp-even wrap">
+      <section class="txt-center">
+        <h6 class="txt-bold">150 000</h6>
+        <p class="txt-cyan">Candidats</p>
       </section>
-
-      <section class="disflex space-bet wrap">
-        <article class="disflex center col">
-          <figure>
-            <img class="algo-img"
-              src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/perso.png"
-              alt="personnalisation">
-          </figure>
-          <p class="txt-bold2">Personnalisation</p>
-          <p>Notre algorithme de matching sélectionne pour toi les projets qui te correspondent vraiment</p>
-        </article>
-
-        <article>
-          <figure class="disflex center">
-            <img class="algo-img"
-              src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/3-en-1.png" alt="3 en 1">
-          </figure>
-          <p class="txt-bold2">3 en 1</p>
-          <p>Tu as le pouvoir d'accepter les matchings, les demandes direstes ou postuler directement aux offres qui
-            te
-            plaisent</p>
-        </article>
-
-        <article>
-          <figure class="disflex center">
-            <img class="algo-img"
-              src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/anonymat.png"
-              alt="anonymat">
-          </figure>
-          <p class="txt-bold2">Anonymat</p>
-          <p>Ton profil reste protégé et anonyme jusqu'à ta mise en raltion avec le recruteur de ton choix, évitant
-            ainsitout sur-sollicitation.</p>
-        </article>
-
+      <section class="txt-center">
+        <h6 class="txt-bold">465 000</h6>
+        <p class="txt-cyan">Rencontres</p>
       </section>
-      <article class=" center txt-center">
-        <a class="button-main" href="#">
-          <p>J'accède à mes matchings</p>
-        </a>
-      </article>
-    </article>
+      <section class="txt-center">
+        <h6 class="txt-bold">13 300</h6>
+        <p class="txt-cyan">Recruteurs</p>
+      </section>
+    </div>
 
+    <main class="dflex txt-center col">
+      <div class="bck-algo">
+        <div class="marg-main">
+          <section>
+            <h2>L'algorithme travaille pour toi</h2>
+            <p>
+              Accède à des matchings personnalisés tout en restant protégé et
+              anonyme
+            </p>
+          </section>
 
+          <div class="dflex wrap center">
+            <article class="flex-item">
+              <figure>
+                <img
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/perso.png"
+                  alt="personnalisation"
+                />
+              </figure>
+              <h4 class="txt-bold2">Personnalisation</h4>
+              <p>
+                Notre algorithme de matching sélectionne pour toi les projets
+                qui te correspondent vraiment
+              </p>
+            </article>
 
-    <article class="center wrap">
+            <article class="flex-item">
+              <figure>
+                <img
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/3-en-1.png"
+                  alt="3 en 1"
+                />
+              </figure>
+              <h4 class="txt-bold2">3 en 1</h4>
+              <p>
+                Tu as le pouvoir d'accepter les matchings, les demandes direstes
+                ou postuler directement aux offres qui te plaisent
+              </p>
+            </article>
 
-      <article>
+            <article class="flex-item">
+              <figure>
+                <img
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/anonymat.png"
+                  alt="anonymat"
+                />
+              </figure>
+              <h4 class="txt-bold2">Anonymat</h4>
+              <p>
+                Ton profil reste protégé et anonyme jusqu'à ta mise en raltion
+                avec le recruteur de ton choix, évitant ainsitout
+                sur-sollicitation.
+              </p>
+            </article>
+          </div>
+          <div>
+            <a class="btn-main" href="#">J'accède à mes matchings</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="marg-main">
         <section>
           <h2>Tous les jobs informatiques et numériques</h2>
-          <p>Découvre les dernières offres d'emploi tech', produit, data, marketing et design</p>
+          <p>
+            Découvre les dernières offres d'emploi tech', produit, data,
+            marketing et design
+          </p>
         </section>
-      </article>
 
-      <article class="disflex center col">
-        <article class="disflex center col">
-          <figure>
-            <a href="#">
-              <img class="tech-img"
-                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/tech.svg"
-                alt="technologie">
-            </a>
-          </figure>
-          <p>Tech</p>
+        <div class="dflex wrap center txt-center">
+          <article class="flex-item2">
+            <figure>
+              <a href="#">
+                <img
+                  class="img"
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/tech.svg"
+                  alt="technologie"
+                />
+              </a>
+            </figure>
+            <h3>Tech</h3>
+          </article>
+
+          <article class="flex-item2">
+            <figure>
+              <a href="#">
+                <img
+                  class="img"
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/produit.svg"
+                  alt="produit"
+                />
+              </a>
+            </figure>
+            <h3>Produit</h3>
+          </article>
+
+          <article class="flex-item2">
+            <figure>
+              <a href="#">
+                <img
+                  class="img"
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/marketing.svg"
+                  alt="marketing"
+                />
+              </a>
+            </figure>
+            <h3>Marketing</h3>
+          </article>
+
+          <article class="flex-item2">
+            <figure>
+              <a href="#">
+                <img
+                  class="img"
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/DATA.svg "
+                  alt="Data"
+                />
+              </a>
+            </figure>
+            <h3>Data</h3>
+          </article>
+
+          <article class="flex-item2">
+            <figure>
+              <a href="#">
+                <img
+                  class="img"
+                  src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/design.svg "
+                  alt="creation"
+                />
+              </a>
+            </figure>
+            <h3>Création</h3>
+          </article>
+        </div>
+
+        <article>
+          <a class="btn-main" href="#">Je découvre toutes les offres</a>
         </article>
+      </div>
 
-        <article class="disflex center col">
-          <figure>
-            <a href="#">
-              <img class="tech2-img"
-                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/produit.svg"
-                alt="produit">
-            </a>
-          </figure>
-          <p>Produit</p>
+      <div class="dflex center bck-foot">
+        <article class="width">
+          <h2>Mérites-tu un meilleur salaire ?</h2>
+          <h3>Baromètre des salaires IT</h3>
+          <p>
+            Découvre le salaire des différents métiers informatiques et
+            numériques par niveau d'expérience et localisation.
+          </p>
+          <a class="btn-foot" href="#">Je découvre mon salaire</a>
         </article>
-
-        <article class="disflex center col">
+        <div class="width">
           <figure>
-            <a href="#">
-              <img class="tech2-img"
-                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/marketing.svg"
-                alt="marketing">
-            </a>
+            <img
+              class="mask-img foot-img"
+              src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/baro.svg"
+              alt="salaire"
+            />
           </figure>
-          <p>Marketing</p>
-        </article>
-
-        <article class="disflex center col">
-          <figure>
-            <a href="#">
-              <img class="tech2-img"
-                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/DATA.svg "
-                alt="Data">
-            </a>
-          </figure>
-          <p>Data</p>
-        </article>
-
-        <article class="disflex center col">
-          <figure>
-            <a href="#">
-              <img class="tech2-img"
-                src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/visu-metiers/design.svg "
-                alt="creation">
-            </a>
-          </figure>
-          <p>Création</p>
-        </article>
-      </article>
-
-      <article>
-        <a class="button-main" href="#">
-          <p>Je découvre toutes les offres</p>
-        </a>
-      </article>
-
-    </article>
-
-    <article class="bck-foot">
-      <article>
-        <h2>Mérites-tu un meilleur salaire ?</h2>
-        <h3>Baromètre des salaires IT</h3>
-        <p>Découvre le salaire des différents métiers informatiques et numériques par niveau d'expérience et
-          localisation.</p>
-        <a class="button-main" href="#">
-          <p>Je découvre mon salaire</p>
-        </a>
-      </article>
-      <article>
-        <figure>
-          <img class="tech-img" src="https://s3-eu-west-1.amazonaws.com/assets.chooseyourboss.com/images/home/baro.svg"
-            alt="salaire">
-        </figure>
-      </article>
-
-    </article>
-
-
-
-  </main>
-
-</body>
-
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
